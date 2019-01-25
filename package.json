@@ -1,0 +1,38 @@
+{
+  "name": "@imbue/entity-adder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imbue-io/imbue-webcomponent-entity-adder.git"
+  },
+  "author": "dukeofgaming",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/imbue-io/imbue-webcomponent-entity-adder/issues"
+  },
+  "homepage": "https://github.com/imbue-io/imbue-webcomponent-entity-adder#readme",
+  "dependencies": {
+    "@polymer/paper-spinner": "^3.0.1",
+    "@polymer/paper-tooltip": "^3.0.1",
+    "@vaadin/vaadin-combo-box": "^4.2.2",
+    "@vaadin/vaadin-grid": "^5.2.7",
+    "@webcomponents/webcomponentsjs": "^2.2.4",
+    "webpack": "^4.29.0",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack-cli": "^3.2.1"
+  }
+}
